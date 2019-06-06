@@ -6,6 +6,7 @@ module.exports = {
     skills: `Javascript, React, Node, CSS, HTML, Sass, Front-end`
   },
   plugins: [
+    
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
@@ -20,15 +21,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Todd Fichman's Site`,
+        short_name: `Todd Fichman`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#4281a4`,
+        theme_color: `#4281a4`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

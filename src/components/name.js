@@ -32,18 +32,6 @@ export default class Name extends Component {
                 <a href="https://www.linkedin.com/in/todd-fichman-438a4016b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://github.com/toddfichman" target="_blank" rel="noopener noreferrer">Github</a>
                 <a href="https://docs.google.com/document/d/1sOESCLWi3butVgIOkAwMxpFz8PibzIX6jKij8RSR8Zo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-                {/* <div className="contact-form-container">
-                <label className="contact-form-header">Contact</label>
-                  <form className="contact-form">
-                    <label className="contact-form-label">Name</label>
-                    <input type="text" name="name" placeholder="John Doe" className="contact-form-input"/>
-                    <label className="contact-form-label">Email</label>
-                    <input name="email" placeholder="your@email.com" type="email" className="contact-form-input"/>
-                    <label className="contact-form-label">Message</label>
-                    <textarea name="message" className="contact-form-input"/>
-                    <button>Send</button>
-                  </form>
-                </div> */}
               </>
             ) : null}
           </div>

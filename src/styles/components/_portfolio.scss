@@ -47,11 +47,22 @@
     font-size: 1.1rem;
   }
 
+  &-tech-list {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+
+    &-text {
+      margin-left: .5rem;
+    }
+  }
+
   &-demo-link-container {
     width: 100%;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
   }
 
   &-demo-link {
@@ -96,7 +107,7 @@
   &-header {
     color: #e6b89c;
     font-family: $font-secondary;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     width: 100%
   }
@@ -118,8 +129,9 @@
   }
 
   textarea {
-    height: 7rem;
+    height: 9rem;
     margin-bottom: 2rem;
+    resize: none;
   }
 
   &-btn {
@@ -130,6 +142,8 @@
     color: $color-primary;
     transition: color .5s ease, background-color .5s ease;
     font-size: 2rem;
+    cursor: pointer;
+
 
     &:visited {
       color: $color-primary;
@@ -158,6 +172,10 @@
   .portfolio {
     padding: 10% 1.5rem;
     margin-top: -3rem;
+    
+    &-demo-link {
+      width: 75%
+    }
 
     .contact-form-container {
       // position: relative;

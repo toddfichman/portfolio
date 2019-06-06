@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faAngleDoubleDown,
-  faArrowDown,
-  faChevronDown,
-} from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import Img from 'gatsby-image'
 import Fade from 'react-reveal/Fade'
 
@@ -81,22 +77,24 @@ export default class Bio extends Component {
                 Check it
               </a>
             </div>
-            <p>Make With - </p>
-            <ul>
-              <li>React.js</li>
-              <li>axios</li>
-              <li>Google Maps API</li>
-              <li>bootstap</li>
+            <h2>Built With: </h2>
+            <ul className="portfolio-tech-list">
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">React.js</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">axios</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Google Maps API, World Weather
+              Online API, & the Open Brewery DB API</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">reactstrap</span></li>
+              
             </ul>
 
-            <p className="portfolio-text">
+            {/* <p className="portfolio-text">
               Above is a screen shot of a web appliation meant to provide the
               user with salient weather information for a day skiing as well as
               a list of nearby breweries to provide another activity once their
               long day of skiing is over. It was built using React.js and
               Reactstrap and the information is pulled from the World Weather
               Online API, the Open Brewery DB API, and Google Maps API.{' '}
-            </p>
+            </p> */}
           </div>
           <div className="portfolio-section">
             <h3 className="portfolio-item-header">Medical Practice Website</h3>
@@ -121,14 +119,15 @@ export default class Bio extends Component {
                 Check it
               </a>
             </div>
-            <p className="portfolio-text">
-              Above is a screen shot of a web appliation meant to provide the
-              user with salient weather information for a day skiing as well as
-              a list of nearby breweries to provide another activity once their
-              long day of skiing is over. It was built using React.js and
-              Reactstrap and the information is pulled from the World Weather
-              Online API, the Open Brewery DB API, and Google Maps API.{' '}
-            </p>
+            <h2>Built With: </h2>
+            <ul className="portfolio-tech-list">
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Next.js</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Sass</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Google Maps API</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">React Boostrap</span></li>
+              
+            </ul>
+            
           </div>
           <div className="portfolio-section">
             <h3 className="portfolio-item-header">Lyrics Search Engine</h3>
@@ -153,43 +152,73 @@ export default class Bio extends Component {
                 Check it
               </a>
             </div>
-            <p>Make With - </p>
-            <ul>
-              <li>React Context API</li>
-              <li>Musixmatch Developer API</li>
-              <li>bootstap</li>
+            <h2>Built With: </h2>
+            <ul className="portfolio-tech-list">
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">React.js (Context API)</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">axios</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Musixmatch API</span></li>
+              
+              
             </ul>
-            <p className="portfolio-text">
-              Above is a screen shot of a web appliation meant to provide the
-              user with salient weather information for a day skiing as well as
-              a list of nearby breweries to provide another activity once their
-              long day of skiing is over. It was built using React.js and
-              Reactstrap and the information is pulled from the World Weather
-              Online API, the Open Brewery DB API, and Google Maps API.{' '}
-            </p>
+            
           </div>
-        <div className="contact-form-container">
-          <label className="contact-form-header">Contact</label>
-          <form className="contact-form">
-            <label className="contact-form-label">Name</label>
-            <input
-              type="text"
-              name="name"
-              placeholder="John Doe"
-              className="contact-form-input"
-            />
-            <label className="contact-form-label">Email</label>
-            <input
-              name="email"
-              placeholder="your@email.com"
-              type="email"
-              className="contact-form-input"
-            />
-            <label className="contact-form-label">Message</label>
-            <textarea name="message" className="contact-form-input" placeholder="What's up?"/>
-            <button className="contact-form-btn">Send</button>
-          </form>
-        </div>
+          <div className="portfolio-section">
+            <h3 className="portfolio-item-header">Personal Blog</h3>
+            <Fade>
+              <div className="portfolio-pic-container">
+                <a
+                  href="https://react-lyrics-69891.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Img fluid={this.props.blogImage} alt="GATSBY_BLOG" />
+                </a>
+              </div>
+            </Fade>
+            <div className="portfolio-demo-link-container">
+              <a
+                href="https://trusting-morse-7b054d.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portfolio-demo-link"
+              >
+                Check it
+              </a>
+            </div>
+            <h2>Built With: </h2>
+            <ul className="portfolio-tech-list">
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Gatsby.js</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Contentful</span></li>
+              <li> <FontAwesomeIcon icon={faAngleRight} /> <span className="portfolio-tech-list-text">Netlify</span></li>
+              
+            </ul>
+          </div>
+          <div className="contact-form-container">
+            <label className="contact-form-header">Contact Me</label>
+            <form className="contact-form">
+              <label className="contact-form-label">Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="John Doe"
+                className="contact-form-input"
+              />
+              <label className="contact-form-label">Email</label>
+              <input
+                name="email"
+                placeholder="your@email.com"
+                type="email"
+                className="contact-form-input"
+              />
+              <label className="contact-form-label">Message</label>
+              <textarea
+                name="message"
+                className="contact-form-input"
+                placeholder="What's up?"
+              />
+              <button className="contact-form-btn">Send</button>
+            </form>
+          </div>
         </div>
       </React.Fragment>
     )
