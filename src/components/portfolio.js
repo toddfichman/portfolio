@@ -267,7 +267,15 @@ export default class Bio extends Component {
           <Fade>
             <div className="contact-form-container">
               <label className="contact-form-header">Contact Me</label>
-              <form className="contact-form" netlify name="contact" method="POST" action="/pages/success">
+              <form
+                className="contact-form"
+                netlify
+                name="contact"
+                method="POST"
+                action="/success"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <label className="contact-form-label">Name</label>
                 <input
                   type="text"
@@ -288,7 +296,9 @@ export default class Bio extends Component {
                   className="contact-form-input"
                   placeholder="What's up?"
                 />
-                <button type="submit" className="contact-form-btn">Send</button>
+                <button type="submit" className="contact-form-btn">
+                  Send
+                </button>
               </form>
             </div>
           </Fade>
