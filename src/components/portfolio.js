@@ -267,7 +267,7 @@ export default class Bio extends Component {
           <Fade>
             <div className="contact-form-container">
               <label className="contact-form-header">Contact Me</label>
-              <form className="contact-form" netlify name="contact" method="POST" >
+              <form className="contact-form" netlify name="contact" method="POST" action="/pages/success">
                 <label className="contact-form-label">Name</label>
                 <input
                   type="text"

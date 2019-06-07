@@ -1,0 +1,48 @@
+.success {
+
+  &-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35vh;
+  }
+
+  &-header {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &-sub-text {
+    font-size: 2rem;
+    font-family: $font-secondary;
+
+  }
+
+  &-link {
+    
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $color-secondary;
+    color: $color-primary;
+    color: $color-primary;
+    text-decoration: none;
+    text-align: center;
+    transition: color .5s ease, background-color .5s ease;
+
+    &:hover {
+      transition: color .5s ease, background-color .5s ease;
+      background-color: rgb(34, 90, 121);
+      color: $color-secondary;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .success-header {
+    font-size: 2rem;
+  }
+
+  .success-sub-text {
+    font-size: 1.5rem;
+  }
+}
