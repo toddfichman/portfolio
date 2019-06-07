@@ -7,7 +7,6 @@ export default class Name extends Component {
 
   toggleModal = () => {
     this.setState({ modalOpen: !this.state.modalOpen })
-    console.log("togglw", this.state.modalOpen)
   }
 
   render() {
@@ -18,7 +17,7 @@ export default class Name extends Component {
           style={{ width: this.state.modalOpen ? "100%" : "0" }}
         >
           <a
-            href="#"
+            
             className="closebtn"
             onClick={this.toggleModal}
           >
