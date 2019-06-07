@@ -269,12 +269,10 @@ export default class Bio extends Component {
               <label className="contact-form-header">Contact Me</label>
               <form
                 className="contact-form"
-                netlify
+                data-netlify="true"
                 name="contact-form"
-                method="POST"
+                method="post"
                 action="/success"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <label className="contact-form-label">Name</label>
                 <input
