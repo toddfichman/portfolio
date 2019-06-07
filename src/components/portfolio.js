@@ -270,10 +270,12 @@ export default class Bio extends Component {
               <form
                 className="contact-form"
                 data-netlify="true"
-                name="contact-form"
+                netlify-honeypot="bot-field"
+                name="contact"
                 method="post"
                 action="/success"
               >
+                <input type="hidden" name="contact" value="contact" />
                 <label className="contact-form-label">Name</label>
                 <input
                   type="text"
@@ -299,7 +301,6 @@ export default class Bio extends Component {
                 </button>
               </form>
             </div>
-            
           </Fade>
         </div>
       </React.Fragment>
