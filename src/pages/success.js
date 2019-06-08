@@ -9,7 +9,7 @@ export default function Success() {
       <SEO title="Success" />
 
       <div className="success-container text-focus-in" >
-        <h2 className="success-header">Form Successfuly Submitted</h2>
+        <h2 className="success-header">Form Successfully Submitted</h2>
         <p className="success-sub-text">
           Return to the{' '}
           <Link className="success-link" to="/">
