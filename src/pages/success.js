@@ -8,7 +8,7 @@ export default function Success() {
     <React.Fragment>
       <SEO title="Success" />
 
-      <div className="success-container">
+      <div className="success-container text-focus-in" >
         <h2 className="success-header">Form Successfuly Submitted</h2>
         <p className="success-sub-text">
           Return to the{' '}
