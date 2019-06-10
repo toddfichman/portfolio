@@ -46,7 +46,7 @@ export default class Bio extends Component {
             <h3 className="portfolio-header">Hey, thanks for stopping by.</h3>
             <h3 className="portfolio-header">
               I'm Todd Fichman and I'm a Front-End Developer working on my
-              Full-Stack knowledge with Node.js and Python.
+              Full-Stack knowledge with Node.js.
             </h3>
             <h3 className="portfolio-header">
               Check out some of the stuff I've made.
