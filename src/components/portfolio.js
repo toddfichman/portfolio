@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 import Fade from 'react-reveal/Fade'
+import brewSkiGIF from '../images/brewski.gif'
+import lyricSearchGIF from '../images/lyricSearch.gif'
+import FECGIF from '../images/fichmanEyeCenter.gif'
+import gatsbyBlogGIF from '../images/gatsbyBlog.gif'
 
 export default class Bio extends Component {
   state = {
@@ -45,8 +49,8 @@ export default class Bio extends Component {
           <Fade>
             <h3 className="portfolio-header">Hey, thanks for stopping by.</h3>
             <h3 className="portfolio-header">
-              I'm Todd Fichman and I'm a Front-End Developer working on my
-              Full-Stack knowledge with Node.js.
+              I'm Todd Fichman and I'm a Front-End Developer with
+              Full-Stack experience using Node.js.
             </h3>
             <h3 className="portfolio-header">
               Check out some of the stuff I've made.
@@ -58,13 +62,22 @@ export default class Bio extends Component {
               <h3 className="portfolio-item-header">
                 Ski Report & Local Brewery Locator Web App
               </h3>
-              <div className="portfolio-pic-container">
+              {/* <div className="portfolio-pic-container">
                 <a
                   href="https://gentle-tor-64276.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Img fluid={this.props.brewSkiImage} alt="WEATHER_APP" />
+                </a>
+              </div> */}
+              <div className="portfolio-pic-container">
+                <a
+                  href="https://gentle-tor-64276.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={brewSkiGIF} alt="WEATHER_APP" />
                 </a>
               </div>
 
@@ -117,68 +130,23 @@ export default class Bio extends Component {
           </Fade>
           <Fade>
             <div className="portfolio-section">
-              <h3 className="portfolio-item-header">
-                Medical Practice Website
-              </h3>
-              <div className="portfolio-pic-container">
-                <a
-                  href="https://fichman-eye-center.toddfichman.now.sh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img fluid={this.props.FECImage} alt="FICHMAN-EYE-CENTER" />
-                </a>
-              </div>
-
-              <div className="portfolio-demo-link-container">
-                <a
-                  href="https://fichman-eye-center.toddfichman.now.sh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="portfolio-demo-link"
-                >
-                  Demo
-                </a>
-              </div>
-              <h2>Built With: </h2>
-              <ul className="portfolio-tech-list">
-                <li>
-                  {' '}
-                  <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">Next.js</span>
-                </li>
-                <li>
-                  {' '}
-                  <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">Sass</span>
-                </li>
-                <li>
-                  {' '}
-                  <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">
-                    Google Maps API
-                  </span>
-                </li>
-                <li>
-                  {' '}
-                  <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">
-                    React Boostrap
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </Fade>
-          <Fade>
-            <div className="portfolio-section">
               <h3 className="portfolio-item-header">Lyrics Search Engine</h3>
-              <div className="portfolio-pic-container">
+              {/* <div className="portfolio-pic-container">
                 <a
                   href="https://react-lyrics-69891.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Img fluid={this.props.lyricsImage} alt="LYRICS_SEARCH_APP" />
+                </a>
+              </div> */}
+              <div className="portfolio-pic-container">
+                <a
+                  href="https://react-lyrics-69891.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={lyricSearchGIF} alt="LYRICS_SEARCH_APP" />
                 </a>
               </div>
 
@@ -223,14 +191,88 @@ export default class Bio extends Component {
           </Fade>
           <Fade>
             <div className="portfolio-section">
-              <h3 className="portfolio-item-header">Personal Blog</h3>
+              <h3 className="portfolio-item-header">
+                Medical Practice Website
+              </h3>
+              {/* <div className="portfolio-pic-container">
+                <a
+                  href="https://fichman-eye-center.toddfichman.now.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Img fluid={this.props.FECImage} alt="FICHMAN-EYE-CENTER" />
+                </a>
+              </div> */}
+
               <div className="portfolio-pic-container">
+                <a
+                  href="https://gentle-tor-64276.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={FECGIF} alt="FICHMAN_EYE_CENTER" />
+                </a>
+              </div>
+
+              <div className="portfolio-demo-link-container">
+                <a
+                  href="https://fichman-eye-center.toddfichman.now.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-demo-link"
+                >
+                  Demo
+                </a>
+              </div>
+              <h2>Built With: </h2>
+              <ul className="portfolio-tech-list">
+                <li>
+                  {' '}
+                  <FontAwesomeIcon icon={faAngleRight} />{' '}
+                  <span className="portfolio-tech-list-text">Next.js</span>
+                </li>
+                <li>
+                  {' '}
+                  <FontAwesomeIcon icon={faAngleRight} />{' '}
+                  <span className="portfolio-tech-list-text">Sass</span>
+                </li>
+                <li>
+                  {' '}
+                  <FontAwesomeIcon icon={faAngleRight} />{' '}
+                  <span className="portfolio-tech-list-text">
+                    Google Maps API
+                  </span>
+                </li>
+                <li>
+                  {' '}
+                  <FontAwesomeIcon icon={faAngleRight} />{' '}
+                  <span className="portfolio-tech-list-text">
+                    React Boostrap
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </Fade>
+          
+          <Fade>
+            <div className="portfolio-section">
+              <h3 className="portfolio-item-header">Personal Blog</h3>
+              {/* <div className="portfolio-pic-container">
                 <a
                   href="https://trusting-morse-7b054d.netlify.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Img fluid={this.props.blogImage} alt="GATSBY_BLOG" />
+                </a>
+              </div> */}
+              <div className="portfolio-pic-container">
+                <a
+                  href="https://gentle-tor-64276.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gatsbyBlogGIF} alt="GATSBY_BLOG" />
                 </a>
               </div>
 
