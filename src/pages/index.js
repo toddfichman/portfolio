@@ -14,6 +14,10 @@ const IndexPage = props => (
         href="https://fonts.googleapis.com/css?family=Cantata+One|Open+Sans:300&display=swap"
         rel="stylesheet"
       />
+      <meta
+        name="google-site-verification"
+        content="WfQTT9ixJsZBiIHEVnPw--VdlIOVdHQE0QMunOGEl-Y"
+      />
     </Helmet>
     <SEO
       title="Todd Fichman"
