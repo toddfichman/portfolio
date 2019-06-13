@@ -30,7 +30,7 @@ export default class Name extends Component {
                 <a href={"mailto:toddfichman@gmail.com" }>toddfichman@gmail.com</a>
                 <a href="https://www.linkedin.com/in/todd-fichman-438a4016b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://github.com/toddfichman" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://docs.google.com/document/d/1sOESCLWi3butVgIOkAwMxpFz8PibzIX6jKij8RSR8Zo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                {/* <a href="https://docs.google.com/document/d/1sOESCLWi3butVgIOkAwMxpFz8PibzIX6jKij8RSR8Zo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a> */}
               </>
             ) : null}
           </div>

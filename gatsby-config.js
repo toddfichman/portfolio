@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio`,
+    title: `Front End Engineer`,
     description: `This is the personal website for Todd Fichman`,
     author: `Todd Fichman`,
-    skills: `Javascript, React, Node, CSS, HTML, Sass, Front-end`
+    skills: `Javascript, React, Node, CSS, HTML, Sass, Front-end, Front end`
   },
   plugins: [
     
