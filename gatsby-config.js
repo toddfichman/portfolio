@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.toddfichman.com/',
     title: `Front End Engineer`,
     description: `This is the personal website for Todd Fichman`,
     author: `Todd Fichman`,
@@ -7,7 +8,7 @@ module.exports = {
     keywords: `Javascript, React, Node, CSS, HTML, Sass, Front-end, Front end, web development, software development,`
   },
   plugins: [
-    
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
