@@ -7,6 +7,7 @@ import brewSkiGIF from '../images/brewski.gif'
 import lyricSearchGIF from '../images/lyricSearch.gif'
 import FECGIF from '../images/fichmanEyeCenter.gif'
 import gatsbyBlogGIF from '../images/gatsbyBlog.gif'
+import Img from 'gatsby-image'
 
 export default class Bio extends Component {
   state = {
@@ -62,7 +63,7 @@ export default class Bio extends Component {
               <h3 className="portfolio-item-header">
                 Ski Report & Local Brewery Locator Web App
               </h3>
-              {/* <div className="portfolio-pic-container">
+              <div className="portfolio-pic-container">
                 <a
                   href="https://gentle-tor-64276.herokuapp.com/"
                   target="_blank"
@@ -70,8 +71,8 @@ export default class Bio extends Component {
                 >
                   <Img fluid={this.props.brewSkiImage} alt="WEATHER_APP" />
                 </a>
-              </div> */}
-              <div className="portfolio-pic-container">
+              </div>
+              {/* <div className="portfolio-pic-container">
                 <a
                   href="https://gentle-tor-64276.herokuapp.com/"
                   target="_blank"
@@ -79,7 +80,7 @@ export default class Bio extends Component {
                 >
                   <img src={brewSkiGIF} alt="WEATHER_APP" />
                 </a>
-              </div>
+              </div> */}
 
               <div className="portfolio-demo-link-container">
                 <a
