@@ -51,19 +51,28 @@ h1:not(:last-child) {
 
   .name {
     padding: 0 10px;
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .name-section {
-    height: 85vh;
-    padding-left: 1rem;
   }
 
   h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
+    
   }
 }
+
+
+
+@media (max-width: 500px) {
+  .name-section {
+    height: 80vh;
+    padding-left: .75rem;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    
+  }
+}
+
+
 
 
