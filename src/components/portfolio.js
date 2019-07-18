@@ -207,7 +207,7 @@ export default class Bio extends Component {
 
               <div className="portfolio-pic-container">
                 <a
-                  href="https://gentle-tor-64276.herokuapp.com/"
+                  href="https://fichmaneyecenter.netlify.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -217,7 +217,7 @@ export default class Bio extends Component {
 
               <div className="portfolio-demo-link-container">
                 <a
-                  href="https://fichman-eye-center.toddfichman.now.sh/"
+                  href="https://fichmaneyecenter.netlify.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio-demo-link"
