@@ -27,7 +27,7 @@
   font-family: $font-secondary;
   padding: 1.25rem;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 50px;
   color: $color-contact;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
@@ -44,8 +44,8 @@
 .overlay .closebtn {
   position: absolute;
   top: 20px;
-  right: 45px;
-  font-size: 60px;
+  right: 30px;
+  font-size: 90px;
   cursor: pointer;
 }
 
@@ -55,9 +55,9 @@
     font-size: 1.7rem;
   }
   .overlay .closebtn {
-    font-size: 40px;
+    font-size: 60px;
     top: 15px;
-    right: 35px;
+    right: 5px;
   }
 }
 
