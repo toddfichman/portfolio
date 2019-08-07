@@ -74,7 +74,7 @@ export default class Bio extends Component {
               </div> */}
               <div className="portfolio-pic-container">
                 <a
-                  href="https://brewski-86f48.web.app/"
+                  href="https://brewski-86f48.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -84,7 +84,7 @@ export default class Bio extends Component {
 
               <div className="portfolio-demo-link-container">
                 <a
-                  href="https://brewski-86f48.web.app/"
+                  href="https://brewski-86f48.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio-demo-link"
