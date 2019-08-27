@@ -8,6 +8,7 @@ import lyricSearchGIF from '../images/lyricSearch.gif'
 import FECGIF from '../images/fichmanEyeCenter.gif'
 import gatsbyBlogGIF from '../images/gatsbyBlog.gif'
 import Img from 'gatsby-image'
+import soundOffGif from '../images/soundOff.gif'
 
 export default class Bio extends Component {
   state = {
@@ -257,7 +258,7 @@ export default class Bio extends Component {
           
           <Fade>
             <div className="portfolio-section">
-              <h3 className="portfolio-item-header">Personal Blog</h3>
+              <h3 className="portfolio-item-header">Message Board</h3>
               {/* <div className="portfolio-pic-container">
                 <a
                   href="https://trusting-morse-7b054d.netlify.com/"
@@ -269,17 +270,17 @@ export default class Bio extends Component {
               </div> */}
               <div className="portfolio-pic-container">
                 <a
-                  href="https://gentle-tor-64276.herokuapp.com/"
+                  href="https://react-redux-message-board.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={gatsbyBlogGIF} alt="GATSBY_BLOG" />
+                  <img src={soundOffGif} alt="MESSAGE_BOARD" />
                 </a>
               </div>
 
               <div className="portfolio-demo-link-container">
                 <a
-                  href="https://trusting-morse-7b054d.netlify.com/"
+                  href="https://react-redux-message-board.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio-demo-link"
@@ -292,17 +293,22 @@ export default class Bio extends Component {
                 <li>
                   {' '}
                   <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">Gatsby.js</span>
+                  <span className="portfolio-tech-list-text">React.js</span>
                 </li>
                 <li>
                   {' '}
                   <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">Sass</span>
+                  <span className="portfolio-tech-list-text">Redux</span>
                 </li>
                 <li>
                   {' '}
                   <FontAwesomeIcon icon={faAngleRight} />{' '}
-                  <span className="portfolio-tech-list-text">Contentful</span>
+                  <span className="portfolio-tech-list-text">Firebase & FireStore</span>
+                </li>
+                <li>
+                  {' '}
+                  <FontAwesomeIcon icon={faAngleRight} />{' '}
+                  <span className="portfolio-tech-list-text">Materialize</span>
                 </li>
               </ul>
             </div>
