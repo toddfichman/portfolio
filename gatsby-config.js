@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.toddfichman.com/',
-    title: `Front End Engineer`,
+    title: `Software Engineer`,
     description: `Portfolio For Todd Fichman`,
     author: `Todd Fichman`,
     skills: `Javascript, React, Node, CSS, HTML, Sass, Front-end,`,
