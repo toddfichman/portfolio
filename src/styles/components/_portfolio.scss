@@ -41,6 +41,14 @@
     // box-shadow: 2px 7px 16px -2px rgba(0, 0, 0, 0.46);
   }
 
+  &-pic-content {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+
   &-text {
     text-indent: 3rem;
     margin-top: 1rem;

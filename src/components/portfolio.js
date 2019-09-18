@@ -3,41 +3,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 // import Img from 'gatsby-image'
 import Fade from 'react-reveal/Fade'
-import brewSkiGIF from '../images/brewski.gif'
-import lyricSearchGIF from '../images/lyricSearch.gif'
-import FECGIF from '../images/fichmanEyeCenter.gif'
-import gatsbyBlogGIF from '../images/gatsbyBlog.gif'
-import Img from 'gatsby-image'
-import soundOffGif from '../images/soundOff.gif'
+
+import brewSkiMP4 from '../images/brewski.mp4'
+import lyricSearchMP4 from '../images/lyrics.mp4'
+import FECMP4 from '../images/FEC.mp4'
+import soundOffMP4 from '../images/soundOff.mp4'
 
 export default class Bio extends Component {
   state = {
     hasScrolled: false,
     transform: null,
   }
-
-  // componentDidMount() {
-  //   window.addEventListener("scroll", this.handleScroll)
-  // }
-  // componentWillUnmount() {
-  //   window.addEventListener("scroll", this.handleScroll)
-  // }
-
-  // handleScroll(event) {
-  //   let scrollTop = event.srcElement.body.scrollTop,
-  //     itemTranslate = Math.min(0, scrollTop / 3 - 60)
-
-  //   this.setState({
-  //     transform: itemTranslate,
-  //   })
-  //   console.log(itemTranslate)
-  // }
-
-  // displayScrollSignal() {
-  //   if (window.onscroll === true) {
-
-  //   }
-  // }
 
   render() {
     return (
@@ -64,24 +40,19 @@ export default class Bio extends Component {
               <h3 className="portfolio-item-header">
                 Ski Report & Local Brewery Locator Web App
               </h3>
-              {/* <div className="portfolio-pic-container">
-                <a
-                  href="https://gentle-tor-64276.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img fluid={this.props.brewSkiImage} alt="WEATHER_APP" />
-                </a>
-              </div> */}
               <div className="portfolio-pic-container">
                 <a
                   href="https://brewski-86f48.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={brewSkiGIF} alt="WEATHER_APP" />
+                 
+                  <video loop muted autoPlay playsInline className="portfolio-pic-content">
+                    <source src={brewSkiMP4} type="video/mp4" />
+                  </video>
                 </a>
               </div>
+              
 
               <div className="portfolio-demo-link-container">
                 <a
@@ -133,22 +104,17 @@ export default class Bio extends Component {
           <Fade>
             <div className="portfolio-section">
               <h3 className="portfolio-item-header">Lyrics Search Engine</h3>
-              {/* <div className="portfolio-pic-container">
-                <a
-                  href="https://react-lyrics-69891.web.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img fluid={this.props.lyricsImage} alt="LYRICS_SEARCH_APP" />
-                </a>
-              </div> */}
+
               <div className="portfolio-pic-container">
                 <a
                   href="https://react-lyrics-69891.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={lyricSearchGIF} alt="LYRICS_SEARCH_APP" />
+                  
+                  <video loop muted autoPlay playsInline className="portfolio-pic-content">
+                    <source src={lyricSearchMP4} type="video/mp4" />
+                  </video>
                 </a>
               </div>
 
@@ -196,15 +162,6 @@ export default class Bio extends Component {
               <h3 className="portfolio-item-header">
                 Medical Practice Website
               </h3>
-              {/* <div className="portfolio-pic-container">
-                <a
-                  href="https://fichman-eye-center.toddfichman.now.sh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img fluid={this.props.FECImage} alt="FICHMAN-EYE-CENTER" />
-                </a>
-              </div> */}
 
               <div className="portfolio-pic-container">
                 <a
@@ -212,7 +169,9 @@ export default class Bio extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={FECGIF} alt="FICHMAN_EYE_CENTER" />
+                  <video loop muted autoPlay playsInline className="portfolio-pic-content">
+                    <source src={FECMP4} type="video/mp4" />
+                  </video>
                 </a>
               </div>
 
@@ -274,7 +233,10 @@ export default class Bio extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={soundOffGif} alt="MESSAGE_BOARD" />
+                  
+                  <video loop muted autoPlay playsInline className="portfolio-pic-content">
+                    <source src={soundOffMP4} type="video/mp4" />
+                  </video>
                 </a>
               </div>
 
