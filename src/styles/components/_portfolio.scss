@@ -72,6 +72,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
   }
 
   &-demo-link {
@@ -85,6 +87,7 @@
     text-decoration: none;
     text-align: center;
     transition: color .5s ease, background-color .5s ease;
+    margin: 0 1rem;
     // transition: background-color 1.25s ease;
 
     &:visited {

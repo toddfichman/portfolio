@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-// import Img from 'gatsby-image'
 import Fade from 'react-reveal/Fade'
 
 import brewSkiMP4 from '../images/brewski.mp4'
@@ -22,8 +21,6 @@ export default class Bio extends Component {
           <div className="portfolio-arrow text-focus-in">
             <FontAwesomeIcon size="5x" icon={faChevronDown} />
           </div>
-
-          {/* <FontAwesomeIcon icon={faAngleDoubleDown} className="arrow-down"/> */}
           <Fade>
             <h3 className="portfolio-header">Hey, thanks for stopping by.</h3>
             <h3 className="portfolio-header">
@@ -62,6 +59,15 @@ export default class Bio extends Component {
                   className="portfolio-demo-link"
                 >
                   Demo
+                </a>
+
+                <a
+                  href="https://github.com/toddfichman/BrewSki"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-demo-link"
+                >
+                  Code
                 </a>
               </div>
               <h2>Built With: </h2>
@@ -127,6 +133,14 @@ export default class Bio extends Component {
                 >
                   Demo
                 </a>
+                <a
+                  href="https://github.com/toddfichman/song-lyrics-search"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-demo-link"
+                >
+                  Code
+                </a>
               </div>
               <h2>Built With: </h2>
               <ul className="portfolio-tech-list">
@@ -184,6 +198,14 @@ export default class Bio extends Component {
                 >
                   Demo
                 </a>
+                <a
+                  href="https://github.com/toddfichman/FichmanEyeCenter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-demo-link"
+                >
+                  Code
+                </a>
               </div>
               <h2>Built With: </h2>
               <ul className="portfolio-tech-list">
@@ -218,15 +240,7 @@ export default class Bio extends Component {
           <Fade>
             <div className="portfolio-section">
               <h3 className="portfolio-item-header">Message Board</h3>
-              {/* <div className="portfolio-pic-container">
-                <a
-                  href="https://trusting-morse-7b054d.netlify.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img fluid={this.props.blogImage} alt="GATSBY_BLOG" />
-                </a>
-              </div> */}
+
               <div className="portfolio-pic-container">
                 <a
                   href="https://react-redux-message-board.firebaseapp.com/"
@@ -248,6 +262,14 @@ export default class Bio extends Component {
                   className="portfolio-demo-link"
                 >
                   Demo
+                </a>
+                <a
+                  href="https://github.com/toddfichman/react-redux-firebase-message-board"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-demo-link"
+                >
+                  Code
                 </a>
               </div>
               <h2>Built With: </h2>
