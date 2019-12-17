@@ -243,7 +243,7 @@ export default class Bio extends Component {
 
               <div className="portfolio-pic-container">
                 <a
-                  href="https://react-redux-message-board.firebaseapp.com/"
+                  href="https://react-redux-message-board.firebaseapp.com/signup"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -256,7 +256,7 @@ export default class Bio extends Component {
 
               <div className="portfolio-demo-link-container">
                 <a
-                  href="https://react-redux-message-board.firebaseapp.com/"
+                  href="https://react-redux-message-board.firebaseapp.com/signup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio-demo-link"
